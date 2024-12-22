@@ -1,0 +1,25 @@
+{
+    "name": "test/app",
+    "description": "Test composer app",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "fox91-dependabot-gitlab-tests/private-composer-package": "0.0.1",
+        "fox91-dependabot-gitlab-tests/public-composer-package": "0.0.1",
+        "psr/log": "3.0.0"
+    },
+    "config": {
+        "gitlab-domains": [
+            "gitlab.com"
+        ],
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://gitlab.com/api/v4/group/99427688/-/packages/composer/packages.json"
+        }
+    ]
+}
