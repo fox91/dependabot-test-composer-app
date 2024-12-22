@@ -1,0 +1,14 @@
+version: 2
+registries:
+  composer-gitlab:
+    type: composer-repository
+    url: https://gitlab.com/
+    username: __token__
+    password: ${{secrets.MY_GITLAB_ACCESS_TOKEN}}
+updates:
+  - package-ecosystem: "composer"
+    directory: "/"
+    registries:
+      - composer-gitlab
+    schedule:
+      interval: "weekly"
