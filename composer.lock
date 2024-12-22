@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49d4eb1733448ba29a47c5ec482cc6a5",
+    "content-hash": "95ca159bc239f316443f86741d2f57b8",
     "packages": [
         {
             "name": "fox91-dependabot-gitlab-tests/private-composer-package",
@@ -33,16 +33,16 @@
         },
         {
             "name": "fox91-dependabot-gitlab-tests/public-composer-package",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/fox91-dependabot-gitlab-tests/public-composer-package.git",
-                "reference": "a596bbbf47587e3714a47c48f4ab67d77b8f4e7e"
+                "reference": "e5a165880b8c3a732e6ff44696ff70a7c5e47ef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/65624883/packages/composer/archives/fox91-dependabot-gitlab-tests/public-composer-package.zip?sha=a596bbbf47587e3714a47c48f4ab67d77b8f4e7e",
-                "reference": "a596bbbf47587e3714a47c48f4ab67d77b8f4e7e",
+                "url": "https://gitlab.com/api/v4/projects/65624883/packages/composer/archives/fox91-dependabot-gitlab-tests/public-composer-package.zip?sha=e5a165880b8c3a732e6ff44696ff70a7c5e47ef5",
+                "reference": "e5a165880b8c3a732e6ff44696ff70a7c5e47ef5",
                 "shasum": ""
             },
             "type": "library",
@@ -54,7 +54,7 @@
             "license": [
                 "proprietary"
             ],
-            "description": "GitLab public composer package"
+            "description": "GitLab public composer package - test"
         },
         {
             "name": "psr/log",
@@ -110,10 +110,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
