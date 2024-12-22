@@ -1,0 +1,11 @@
+include:
+  - component: $CI_SERVER_FQDN/dependabot-gitlab/dependabot-standalone/template@3.38.0
+    inputs:
+      gitlab_access_token: "${SETTINGS_DEPENDABOT_STANDALONE_GITLAB_ACCESS_TOKEN}"
+      github_access_token: "${SETTINGS_DEPENDABOT_STANDALONE_GITHUB_ACCESS_TOKEN}"
+    rules:
+      - if: $PACKAGE_MANAGER_SET
+
+job:
+  script:
+    - echo "test"
