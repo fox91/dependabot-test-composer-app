@@ -6,7 +6,7 @@
     "require": {
         "fox91-dependabot-gitlab-tests/private-composer-package": "0.0.1",
         "fox91-dependabot-gitlab-tests/public-composer-package": "0.0.1",
-        "psr/log": "3.0.0"
+        "psr/log": "1.1.0"
     },
     "config": {
         "gitlab-domains": [
