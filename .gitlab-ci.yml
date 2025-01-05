@@ -3,7 +3,7 @@ include:
     inputs:
       gitlab_access_token: "${SETTINGS_DEPENDABOT_STANDALONE_GITLAB_ACCESS_TOKEN}"
       github_access_token: "${SETTINGS_DEPENDABOT_STANDALONE_GITHUB_ACCESS_TOKEN}"
-      dependabot_gitlab_version: 3.13.3-alpha.1
+      dependabot_gitlab_version: nightly
     rules:
       - if: $PACKAGE_MANAGER_SET
 
